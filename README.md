@@ -1,6 +1,6 @@
-# 👋 [Tu Nombre Completo] - Portafolio Técnico
+# 👋 Becareli IA Services - Portafolio Técnico
 
-## 🚀 ¡Hola! Soy [Tu Nombre]
+## 🚀 ¡Hola! Soy Patricio Becar Elissegaray
 
 Soy un [Tu Rol/Especialidad: por ejemplo, Desarrollador Full-Stack, Diseñador UX/UI, Analista de Datos] con una pasión por [Menciona un área técnica que te guste]. Me especializo en [Menciona 1-2 tecnologías clave, ej. desarrollar APIs con Python y diseñar interfaces con Figma].
 
