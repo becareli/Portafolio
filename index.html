@@ -4,63 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Técnico | Becareli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            /* Definición de colores principales */
+            --color-primary: #007bff; /* Azul fuerte para acentos */
+            --color-secondary: #6c757d; /* Gris para textos secundarios */
+            --color-background: #e9ecef; /* Gris claro de fondo */
+            --color-card-bg: #ffffff; /* Blanco para tarjetas */
+            --color-header-bg: #343a40; /* Negro para el encabezado */
+        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f7f6;
+            background-color: var(--color-background);
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background-color: #1a237e; /* Azul oscuro profesional */
+            background-color: var(--color-header-bg);
             color: white;
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
         header h1 {
             margin-bottom: 5px;
-            font-size: 2.5em;
+            font-size: 3em;
+            font-weight: 700;
         }
         header p {
-            font-size: 1.1em;
-            opacity: 0.8;
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-top: 10px;
         }
         .container {
             width: 90%;
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 20px;
+            max-width: 1000px;
+            margin: -30px auto 50px auto; /* Sube la sección principal para solapar con el header */
+            position: relative;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.2em;
+            color: #212529;
+            margin-bottom: 40px;
+            font-weight: 700;
         }
         .project-card {
-            background-color: white;
-            padding: 30px;
+            background-color: var(--color-card-bg);
+            padding: 40px;
             margin-bottom: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
         }
         .project-card h2 {
-            color: #1a237e;
-            border-bottom: 2px solid #e0e0e0;
+            color: var(--color-primary);
+            border-bottom: 3px solid var(--color-primary);
             padding-bottom: 10px;
             margin-top: 0;
+            font-size: 1.8em;
+        }
+        .project-card h3 {
+            color: #495057;
+            margin-top: 25px;
+            font-size: 1.3em;
         }
         .tech-badges span {
             display: inline-block;
-            background-color: #e3f2fd; /* Azul claro */
-            color: #1a237e;
-            padding: 5px 10px;
+            background-color: #e2f0ff; /* Azul muy claro */
+            color: var(--color-primary);
+            padding: 7px 15px;
             margin-right: 10px;
-            border-radius: 4px;
+            margin-top: 5px;
+            border-radius: 5px;
             font-size: 0.9em;
-            font-weight: bold;
+            font-weight: 500;
+        }
+        .project-links a {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-right: 20px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+        .visual-placeholder {
+            background-color: #f8f9fa;
+            border: 1px dashed var(--color-secondary);
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--color-secondary);
+            border-radius: 5px;
+            margin-top: 15px;
         }
         footer {
             text-align: center;
-            padding: 20px;
-            background-color: #ddd;
-            color: #555;
-            margin-top: 50px;
+            padding: 30px;
+            background-color: var(--color-header-bg);
+            color: white;
             font-size: 0.9em;
         }
     </style>
@@ -68,39 +119,46 @@
 <body>
 
     <header>
-        <h1>👋 Becareli</h1>
+        <h1>Becareli 💻</h1>
         <p>Desarrollador Full-Stack y Diseñador UX/UI | Convirtiendo ideas en soluciones funcionales.</p>
     </header>
 
     <main class="container">
         
         <section id="proyectos">
-            <h2>Portafolio de Proyectos Destacados</h2>
+            <h2 class="section-title">Portafolio de Proyectos Destacados</h2>
             
             <article class="project-card">
                 <h2>Proyecto 1: [Nombre de tu Proyecto Principal]</h2>
                 
-                <h3>Desafío y Solución</h3>
-                <p>El principal problema a resolver era... [Describe el problema]. Mi solución fue desarrollar una aplicación/diseño que... [Describe tu solución técnica o de diseño].</p>
+                <h3>🎯 Desafío y Solución</h3>
+                <p>El principal problema a resolver era... [**Describe aquí el problema**]. Mi solución fue desarrollar una aplicación/diseño que... [**Describe tu solución**]. Esto resultó en una mejora del X% en... </p>
                 
-                <h3>Metodología y Herramientas</h3>
-                <p>Implementé una metodología... (ej: Scrum, Design Thinking) utilizando herramientas como:</p>
+                <h3>🛠️ Metodología y Herramientas</h3>
+                <p>Implementé una metodología **[Ej: Design Thinking, Scrum]** utilizando las siguientes herramientas clave:</p>
                 <div class="tech-badges">
+                    <span>Python</span>
+                    <span>Django</span>
                     <span>Figma</span>
-                    <span>HTML/CSS</span>
-                    <span>JavaScript</span>
+                    <span>HTML/CSS/JS</span>
                     </div>
 
-                <h3>Visuales del Proyecto</h3>
-                <p></p>
-                <p>Puedes ver el prototipo completo aquí: <a href="#enlace_a_tu_figma" target="_blank">Ver Prototipo</a></p>
+                <h3>🖼️ Visuales del Proyecto</h3>
+                <div class="visual-placeholder">
+                    [ Aquí va una Captura de Pantalla o un Mockup del Diseño ]
+                </div>
+                <p>Puedes ver el prototipo completo aquí: <a href="#enlace_a_tu_figma" target="_blank">Ver Prototipo en Figma</a></p>
 
-                <h3>Reflexión y Aprendizaje</h3>
-                <p>El mayor aprendizaje de este proyecto fue la importancia de... Además, tuve que superar un reto técnico con... [Detalla tu reflexión].</p>
+                <h3>🧠 Reflexión y Aprendizaje</h3>
+                <p>El mayor aprendizaje de este proyecto fue la importancia de... [**Detalla tu reflexión**]. Además, tuve que superar un reto técnico con [**menciona el reto**], lo que me enseñó a...</p>
                 
                 <hr>
-                <p><strong>Ver Código:</strong> <a href="https://github.com/becareli/Portafolio">[Enlace al Repositorio de GitHub]</a></p>
-                <p><strong>Video Explicativo:</strong> <a href="#enlace_a_tu_video_youtube" target="_blank">Tutorial Técnico en YouTube</a></p>
+
+                <div class="project-links">
+                    <a href="https://github.com/becareli/Portafolio" target="_blank">Ver Código en GitHub</a>
+                    <a href="#enlace_a_tu_video_youtube" target="_blank">🎬 Video Explicativo (YouTube)</a>
+                    <a href="#enlace_a_netlify_o_vercel" target="_blank">🌐 Proyecto Adicional (Netlify/Vercel)</a>
+                </div>
 
             </article>
             
@@ -109,7 +167,7 @@
     </main>
 
     <footer>
-        <p>Portafolio alojado en GitHub Pages. Todos los derechos reservados &copy; 2025.</p>
+        <p>Portafolio alojado en GitHub Pages. Desarrollado por Becareli. &copy; 2025.</p>
     </footer>
 
 </body>
