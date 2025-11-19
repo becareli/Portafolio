@@ -1,10 +1,8 @@
-# 👋 Becareli IA Services - Portafolio Técnico
+# 👋 Patricio Becar Elissegaray - Portafolio Técnico
 
 ## 🚀 ¡Hola! Soy Patricio Becar Elissegaray
 
-Soy un [Tu Rol/Especialidad: por ejemplo, Desarrollador Full-Stack, Diseñador UX/UI, Analista de Datos] con una pasión por [Menciona un área técnica que te guste]. Me especializo en [Menciona 1-2 tecnologías clave, ej. desarrollar APIs con Python y diseñar interfaces con Figma].
-
-Mi objetivo es [Menciona tu meta profesional, ej. crear soluciones escalables que mejoren la experiencia del usuario].
+Soy un [**Tu Rol/Especialidad Principal**] con experiencia en [Menciona 1-2 tecnologías clave, ej. desarrollo web y diseño de interfaces]. Me enfoco en [Menciona tu área de interés o meta profesional, ej. crear soluciones digitales funcionales y centradas en el usuario].
 
 ---
 
@@ -12,47 +10,55 @@ Mi objetivo es [Menciona tu meta profesional, ej. crear soluciones escalables qu
 
 | Categoría | Tecnologías y Herramientas |
 | :--- | :--- |
-| **Lenguajes de Programación** | Python, JavaScript (ES6+), HTML5, CSS3, SQL |
-| **Frameworks / Librerías** | React, Node.js, Django, Tailwind CSS |
-| **Bases de Datos** | PostgreSQL, MongoDB, MySQL |
-| **Herramientas de Diseño / UX** | Figma, Sketch, Adobe XD |
-| **Control de Versiones y Hosting** | Git, **GitHub Pages**, Netlify, Vercel |
+| **Lenguajes** | [Tus Lenguajes: ej. HTML5, CSS3, JavaScript, Python] |
+| **Frameworks / Librerías** | [Tus Frameworks: ej. React, Bootstrap, Django] |
+| **Diseño / UX/UI** | [Tus Herramientas: ej. Figma, Adobe XD, Notion] |
+| **Control de Versiones** | Git, GitHub |
+| **Hosting Cloud** | **GitHub Pages**, [Otros si usas: Netlify, Vercel] |
 
 ---
 
 ## ⭐️ Proyectos Destacados
 
-Aquí te presento algunos de mis proyectos más relevantes, incluyendo la demo de hosting requerida para este ejercicio.
+### 1. ☁️ Demo de Hosting: Sitio Estático
 
-### 1. [Nombre del Proyecto A: El Sitio Estático Alojado]
+Este proyecto demuestra mi habilidad para configurar y publicar aplicaciones web estáticas utilizando servicios en la nube (Punto 3 del ejercicio).
 
-Este proyecto es [Descripción breve del proyecto, ej. un sitio web estático simple que demuestra el uso de HTML y CSS].
+* **Tecnologías:** HTML5, CSS3.
+* **Enlace de Hosting (DEMO EN VIVO):** **[IR AL SITIO WEB ➡️](https://becareli.github.io/mi-sitio-estatico/)**
+* **Repositorio:** [Ver Código Fuente](https://github.com/becareli/mi-sitio-estatico)
 
-* **Tecnologías:** HTML5, CSS3, [Otra tecnología].
-* **Enlace de Hosting (Requerido):** **[VER DEMO EN VIVO ➡️]([Tu URL de GitHub Pages, ej. https://becareli.github.io/mi-sitio-estatico/])**
-* **Repositorio:** [Ver Código Fuente]([Link al repositorio del Proyecto A])
+### 2. 💻 Proyecto Principal del Repositorio
 
-### 2. [Nombre del Proyecto B: El Proyecto de Código del Repositorio]
+[Nombre del Proyecto Subido: ej. Calculadora Python o App de Tareas]
 
-[Descripción breve del proyecto B. Debe ser el proyecto con documentación y LICENSE que subiste directamente al repositorio "Portafolio"].
+Este es el proyecto principal subido a este repositorio, incluyendo su estructura clara, documentación, y el archivo LICENSE (Punto 1.4 del ejercicio).
 
-* **Tecnologías:** Python, Flask, Jinja.
-* **Repositorio:** [Ver Código Fuente]([Link a la carpeta del proyecto dentro de este mismo repo])
+* **Tecnologías:** [Tecnologías usadas: ej. Python, SQLite].
+* **Archivo LICENSE:** [Ver Licencia]([Link directo al archivo LICENSE])
 
 ---
 
-## 📹 Presentación Técnica y Video
+## 🎨 Presentación de Proyecto UX/UI (Sustituto de Behance)
 
-Como parte de mi proceso de aprendizaje, he grabado un tutorial explicando la funcionalidad y las tecnologías clave del proyecto **"[Nombre del Proyecto que Explicas en el Video]"**.
+Para el requisito de diseño (Punto 2 del ejercicio), he documentado mi proceso de diseño UX/UI en [Indica dónde alojaste el proyecto: ej. una página de Notion o una presentación de Figma].
 
-* **Video Tutorial:** **[VER EN YOUTUBE 📺]([Tu Enlace al Video de YouTube])**
+* **Proyecto:** [Nombre del Proyecto UX/UI: ej. Rediseño de una App de Compras].
+* **Enlace de Presentación:** **[VER PROYECTO UX/UI 💡]([... TU ENLACE A NOTION/FIGMA/CARPETA EN GITHUB ...])**
+
+*Asegúrate de que este enlace incluya: Problema/Solución, Prototipos, Proceso, Herramientas y Reflexión.*
+
+---
+
+## 📹 Video Tutorial Técnico
+
+Tutorial técnico de **3-5 minutos** donde explico la funcionalidad, tecnologías utilizadas y el código clave de mi proyecto [Indica el nombre del proyecto explicado].
+
+* **Video Tutorial:** **[VER EN YOUTUBE 📺]([... TU ENLACE AL VIDEO DE YOUTUBE ...])**
 
 ---
 
 ## 🤝 Contacto
 
-¡Me encantaría conectar y discutir proyectos!
-
 * **LinkedIn:** [Tu Enlace de LinkedIn]
-* **Correo Electrónico:** [Tu Correo]
-* **Portafolio de Diseño (Behance):** **[VER PORTAFOLIO UX/UI 🎨]([Tu Enlace a Behance])**
+* **Correo Electrónico:** [Tu Correo Electrónico]
