@@ -1,4 +1,4 @@
-![Banner de Portafolio - Patricio Becar Elissegaray](images/banner-patricio.png)
+![Banner de Portafolio - Patricio Becar Elissegaray](https://raw.githubusercontent.com/becareli/Portafolio/main/images/banner-patricio.png)
 
 # 👋 Patricio Becar Elissegaray - Portafolio Técnico
 
