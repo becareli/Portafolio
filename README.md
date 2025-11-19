@@ -1,3 +1,5 @@
+![Banner de Portafolio - Patricio Becar Elissegaray](images/banner-patricio.png)
+
 # 👋 Patricio Becar Elissegaray - Portafolio Técnico
 
 ## 🚀 ¡Hola! Soy Patricio Becar Elissegaray
