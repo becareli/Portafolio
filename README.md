@@ -24,7 +24,7 @@ bien documentado y escalable.
 
 ## 📱 Contacto
 
-- 📧 Email: contacto@skillnest.com
+- 📧 Email: contacto@arquitectochile.com
 - 💼 LinkedIn: https://www.linkedin.com/in/patriciobecar/
 - 🌐 Web: https://arquitectochile.com/
 - 👤 GitHub: https://github.com/becareli
