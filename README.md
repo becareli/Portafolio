@@ -1,66 +1,64 @@
-![Banner de Portafolio - Patricio Becar Elissegaray](https://raw.githubusercontent.com/becareli/Portafolio/main/images/banner-patricio.png)
+# 🚀 Portafolio Técnico - Patricio Becar
 
-# 👋 Patricio Becar Elissegaray - Portafolio Técnico
+Desarrollador **full-stack especializado en Django** con experiencia en aplicaciones web 
+empresariales, e-commerce y sistemas de gestión.
 
-## 🚀 ¡Hola! Soy Patricio Becar Elissegaray
-
-Soy un [**Tu Rol/Especialidad Principal**] con experiencia en [Menciona 1-2 tecnologías clave, ej. desarrollo web y diseño de interfaces]. Me enfoco en [Menciona tu área de interés o meta profesional, ej. crear soluciones digitales funcionales y centradas en el usuario].
-
----
-
-## 🛠️ Habilidades Técnicas
-
-| Categoría | Tecnologías y Herramientas |
-| :--- | :--- |
-| **Lenguajes** | [Tus Lenguajes: ej. HTML5, CSS3, JavaScript, Python] |
-| **Frameworks / Librerías** | [Tus Frameworks: ej. React, Bootstrap, Django] |
-| **Diseño / UX/UI** | [Tus Herramientas: ej. Figma, Adobe XD, Notion] |
-| **Control de Versiones** | Git, GitHub |
-| **Hosting Cloud** | **GitHub Pages**, [Otros si usas: Netlify, Vercel] |
+Creo **soluciones web escalables, profesionales y listas para producción**.
 
 ---
 
-## ⭐️ Proyectos Destacados
+## 👤 Sobre Mí
 
-### 1. ☁️ Demo de Hosting: Sitio Estático
+**Especialidades:**
+- 🐍 Backend: Python, Django, Django ORM
+- 🎨 Frontend: HTML5, CSS3, JavaScript
+- 💾 Bases de Datos: SQLite, PostgreSQL
+- 🛒 E-commerce: Carrito, órdenes, inventario
+- 🏗️ Arquitectura: MVC, CRUD, APIs RESTful
 
-Este proyecto demuestra mi habilidad para configurar y publicar aplicaciones web estáticas utilizando servicios en la nube (Punto 3 del ejercicio).
-
-* **Tecnologías:** HTML5, CSS3.
-* **Enlace de Hosting (DEMO EN VIVO):** **[IR AL SITIO WEB ➡️](https://becareli.github.io/mi-sitio-estatico/)**
-* **Repositorio:** [Ver Código Fuente](https://github.com/becareli/mi-sitio-estatico)
-
-### 2. 💻 Proyecto Principal del Repositorio
-
-[Nombre del Proyecto Subido: ej. Calculadora Python o App de Tareas]
-
-Este es el proyecto principal subido a este repositorio, incluyendo su estructura clara, documentación, y el archivo LICENSE (Punto 1.4 del ejercicio).
-
-* **Tecnologías:** [Tecnologías usadas: ej. Python, SQLite].
-* **Archivo LICENSE:** [Ver Licencia]([Link directo al archivo LICENSE])
+**Objetivos:**
+Desarrollar aplicaciones web que resuelvan problemas reales con código limpio, 
+bien documentado y escalable.
 
 ---
 
-## 🎨 Presentación de Proyecto UX/UI (Sustituto de Behance)
+## 📱 Contacto
 
-Para el requisito de diseño (Punto 2 del ejercicio), he documentado mi proceso de diseño UX/UI en [Indica dónde alojaste el proyecto: ej. una página de Notion o una presentación de Figma].
-
-* **Proyecto:** [Nombre del Proyecto UX/UI: ej. Rediseño de una App de Compras].
-* **Enlace de Presentación:** **[VER PROYECTO UX/UI 💡]([... TU ENLACE A NOTION/FIGMA/CARPETA EN GITHUB ...])**
-
-*Asegúrate de que este enlace incluya: Problema/Solución, Prototipos, Proceso, Herramientas y Reflexión.*
+- 📧 Email: contacto@skillnest.com
+- 💼 LinkedIn: https://www.linkedin.com/in/patriciobecar/
+- 🌐 Web: https://arquitectochile.com/
+- 👤 GitHub: https://github.com/becareli
 
 ---
 
-## 📹 Video Tutorial Técnico
+## 🛠️ Stack Tecnológico
 
-Tutorial técnico de **3-5 minutos** donde explico la funcionalidad, tecnologías utilizadas y el código clave de mi proyecto [Indica el nombre del proyecto explicado].
-
-* **Video Tutorial:** **[VER EN YOUTUBE 📺]([... TU ENLACE AL VIDEO DE YOUTUBE ...])**
+| Categoría | Herramientas |
+|-----------|------------|
+| **Backend** | Python 3, Django 3.x/4.x, Django ORM, Django Admin |
+| **Frontend** | HTML5, CSS3, JavaScript ES6+, Bootstrap |
+| **BD** | SQLite (dev), PostgreSQL (prod) |
+| **E-commerce** | Carrito de compras, Procesamiento de órdenes |
+| **DevOps** | Git, GitHub, GitHub Pages, Deployment |
 
 ---
 
-## 🤝 Contacto
+## 🏆 Proyectos Destacados
 
-* **LinkedIn:** [Tu Enlace de LinkedIn]
-* **Correo Electrónico:** [Tu Correo Electrónico]
+### 🛒 1. SISTEMA DE GESTIÓN DE PRODUCTOS - TIENDA DE BUCEO
+
+**Descripción:**  
+Plataforma e-commerce completa para tienda de buceo. Sistema full-stack con catálogo 
+de productos, carrito de compras, gestión de órdenes y panel administrativo.
+
+**Características:**
+- ✅ Catálogo de productos por categoría
+- ✅ Carrito de compras dinámico
+- ✅ Sistema de órdenes y seguimiento
+- ✅ Gestión de inventario
+- ✅ Admin Django personalizado
+- ✅ Búsqueda y filtros avanzados
+- ✅ Interfaz responsiva
+- ✅ Relaciones complejas entre modelos
+
+**Modelos Implementados:**
