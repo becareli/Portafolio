@@ -1,179 +1,336 @@
-Claro, Patricio. Aquí tienes el código completo de `index.html` actualizado, con el enlace técnico al video de YouTube correctamente integrado en la sección de enlaces del proyecto:
-
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Técnico | Becareli</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Patricio Becar | Portafolio de Proyectos</title>
+    <meta name="description" content="Portafolio de proyectos de Arquitectura, Gestión y Desarrollo Full-Stack de Patricio Becar.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <style>
+        /* -------------------------------------------------
+        CSS Integrado para un Diseño Moderno y Enfocado en Proyectos
+        -------------------------------------------------
+        */
         :root {
-            --color-primary: #007bff;
-            --color-secondary: #6c757d;
-            --color-background: #e9ecef;
-            --color-card-bg: #ffffff;
-            --color-header-bg: #343a40;
+            --color-primary: #10B981; /* Verde/Teal moderno para la tecnología */
+            --color-secondary: #047857; /* Verde oscuro */
+            --color-text: #1F2937; /* Gris oscuro para texto */
+            --color-background: #F9FAFB; /* Fondo muy claro */
+            --color-card-bg: #FFFFFF;
+            --color-shadow: rgba(16, 185, 129, 0.2);
+            --font-main: 'Inter', sans-serif;
         }
-        body {
-            font-family: 'Roboto', sans-serif;
+
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: var(--color-background);
-            color: #333;
+        }
+
+        body {
+            font-family: var(--font-main);
+            color: var(--color-text);
             line-height: 1.6;
+            background-color: var(--color-background);
+            padding-top: 20px;
         }
-        header {
-            background-color: var(--color-header-bg);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin-bottom: 5px;
-            font-size: 3em;
-            font-weight: 700;
-        }
-        header p {
-            font-size: 1.2em;
-            opacity: 0.9;
-            margin-top: 10px;
-        }
+
         .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: -30px auto 50px auto;
-            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
-        .section-title {
-            text-align: center;
+        
+        /* --- Títulos de Sección --- */
+        section h2 {
             font-size: 2.2em;
-            color: #212529;
+            text-align: center;
             margin-bottom: 40px;
+            color: var(--color-secondary);
             font-weight: 700;
         }
-        .project-card {
+
+        /* --- Hero --- */
+        .hero {
             background-color: var(--color-card-bg);
-            padding: 40px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
+            padding: 60px 0;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
+
+        .hero h1 {
+            font-size: 2.8em;
+            color: var(--color-primary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            font-weight: 400;
+            color: #555;
+        }
+
+        /* --- Botones --- */
+        .btn-primary {
+            display: inline-block;
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.3s;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .btn-primary:hover {
+            background: var(--color-secondary);
+            transform: translateY(-1px);
+        }
+
+        /* --- Grid de Proyectos --- */
+        #projects {
+            padding-bottom: 60px;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: var(--color-card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px var(--color-shadow);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            border-top: 5px solid var(--color-primary);
+        }
+
         .project-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 8px 20px var(--color-shadow);
         }
-        .project-card h2 {
-            color: var(--color-primary);
-            border-bottom: 3px solid var(--color-primary);
-            padding-bottom: 10px;
-            margin-top: 0;
-            font-size: 1.8em;
-        }
+
         .project-card h3 {
-            color: #495057;
-            margin-top: 25px;
-            font-size: 1.3em;
-        }
-        .tech-badges span {
-            display: inline-block;
-            background-color: #e2f0ff;
-            color: var(--color-primary);
-            padding: 7px 15px;
-            margin-right: 10px;
-            margin-top: 5px;
-            border-radius: 5px;
-            font-size: 0.9em;
-            font-weight: 500;
-        }
-        .project-links a {
-            color: var(--color-primary);
-            text-decoration: none;
-            font-weight: 500;
-            margin-right: 20px;
-            display: inline-block;
-            margin-top: 15px;
-        }
-        .project-links a:hover {
-            text-decoration: underline;
-        }
-        .visual-placeholder {
-            background-color: #f8f9fa;
-            border: 1px dashed var(--color-secondary);
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             color: var(--color-secondary);
-            border-radius: 5px;
-            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            font-weight: 600;
         }
+
+        .project-card .tags {
+            margin: 15px 0;
+        }
+
+        .project-card .tags span {
+            display: inline-block;
+            background: #E5E7EB;
+            color: #4B5563;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .card-footer {
+            margin-top: auto; /* Empuja el footer hacia abajo */
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        /* --- Seccion de Habilidades --- */
+        #skills {
+            text-align: center;
+            padding: 40px 0;
+            background-color: var(--color-card-bg);
+            margin-bottom: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill-item {
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        
+        /* --- Footer y Redes Sociales --- */
         footer {
             text-align: center;
-            padding: 30px;
-            background-color: var(--color-header-bg);
-            color: white;
+            padding: 30px 0;
+            background-color: var(--color-text);
+            color: var(--color-background);
             font-size: 0.9em;
+        }
+        
+        .social-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .social-links a {
+            color: var(--color-background);
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--color-primary);
+        }
+
+
+        /* --- Media Queries --- */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 0;
+            }
+            .hero h1 {
+                font-size: 2.2em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+            
+            section h2 {
+                font-size: 1.8em;
+            }
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Becareli 💻</h1>
-        <p>Desarrollador Full-Stack y Diseñador UX/UI | Convirtiendo ideas en soluciones funcionales.</p>
+    <header class="hero container">
+        <h1>Patricio Becar</h1>
+        <p>Arquitecto | Magíster en Gestión | Desarrollador Full-Stack</p>
+        <p>Fusionando el diseño, la gestión de proyectos y la tecnología para soluciones innovadoras.</p>
     </header>
 
-    <main class="container">
+    <section id="projects" class="container">
+        <h2>Proyectos Destacados</h2>
         
-        <section id="proyectos">
-            <h2 class="section-title">Portafolio de Proyectos Destacados</h2>
-            
-            <article class="project-card">
-                <h2>Proyecto 1: [Nombre de tu Proyecto Principal]</h2>
-                
-                <h3>🎯 Desafío y Solución</h3>
-                <p>El principal problema a resolver era... [**Describe aquí el problema**]. Mi solución fue desarrollar una aplicación/diseño que... [**Describe tu solución**]. Esto resultó en una mejora del X% en... </p>
-                
-                <h3>🛠️ Metodología y Herramientas</h3>
-                <p>Implementé una metodología **[Ej: Design Thinking, Scrum]** utilizando las siguientes herramientas clave:</p>
-                <div class="tech-badges">
-                    <span>Python</span>
-                    <span>Django</span>
-                    <span>Figma</span>
-                    <span>HTML/CSS/JS</span>
+        <div class="projects-grid">
+        
+            <div class="project-card">
+                <div>
+                    <h3>CEV SAAS (Calificación Energética)</h3>
+                    <p>
+                        Prototipo Full-Stack robusto para la calificación energética de viviendas. Demuestra la capacidad para diseñar y construir sistemas complejos con modelos de datos, autenticación y operaciones CRUD.
+                    </p>
+                    <div class="tags">
+                        <span>Full-Stack</span>
+                        <span>ORM</span>
+                        <span>CRUD</span>
+                        <span>Gestión de Datos</span>
+                        <span>Eficiencia Energética</span>
+                    </div>
                 </div>
-
-                <h3>🖼️ Visuales del Proyecto</h3>
-                <div class="visual-placeholder">
-                    [ Aquí va una Captura de Pantalla o un Mockup del Diseño ]
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=WJW_24xIzAw" target="_blank" class="btn-primary" style="background-color: #E62117;">
+                        <i class="fab fa-youtube"></i> Ver Demo (YouTube)
+                    </a>
                 </div>
-                <p>Puedes ver el prototipo completo aquí: <a href="#enlace_a_tu_figma" target="_blank">Ver Prototipo en Figma</a></p>
+            </div>
 
-                <h3>🧠 Reflexión y Aprendizaje</h3>
-                <p>El mayor aprendizaje de este proyecto fue la importancia de... [**Detalla tu reflexión**]. Además, tuve que superar un reto técnico con [**menciona el reto**], lo que me enseñó a...</p>
-                
-                <hr>
-
-                <div class="project-links">
-                    <a href="https://github.com/becareli/Portafolio" target="_blank">Ver Código en GitHub</a>
-                    <a href="https://www.youtube.com/watch?v=abc123XYZ" target="_blank">🎬 Análisis técnico del flujo de despliegue (YouTube)</a>
-                    <a href="#enlace_a_netlify_o_vercel" target="_blank">🌐 Proyecto Adicional (Netlify/Vercel)</a>
+            <div class="project-card">
+                <div>
+                    <h3>Proyectos Arquitectónicos y de Tasación</h3>
+                    <p>
+                        Liderazgo y desarrollo de proyectos de diseño y construcción, además de consultoría en gestión de propiedades e informes de tasación. Experiencia en la mejora de la calidad de vida en espacios habitacionales y comerciales.
+                    </p>
+                    <div class="tags">
+                        <span>Arquitectura</span>
+                        <span>Gestión de Proyectos</span>
+                        <span>Tasaciones</span>
+                        <span>Inmobiliaria</span>
+                    </div>
                 </div>
+                <div class="card-footer">
+                    <a href="https://arquitectochile.com/" target="_blank" class="btn-primary">
+                        <i class="fas fa-external-link-alt"></i> Sitio Web Profesional
+                    </a>
+                </div>
+            </div>
 
-            </article>
-            
-        </section>
+            <div class="project-card">
+                <div>
+                    <h3>Desarrollos Web y Experimentos</h3>
+                    <p>
+                        Exploración y prototipado de soluciones en el ecosistema de desarrollo web. Incluye proyectos estáticos y pruebas de concepto para nuevas tecnologías y frameworks.
+                    </p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Diseño Responsive</span>
+                        <span>GitHub Pages</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/becareli" target="_blank" class="btn-primary">
+                        <i class="fab fa-github"></i> Ver Repositorio GitHub
+                    </a>
+                </div>
+            </div>
 
-    </main>
+        </div>
+    </section>
+    
+    <section id="skills" class="container">
+        <h2>Competencias Clave</h2>
+        <div class="skills-list">
+            <div class="skill-item">Arquitectura</div>
+            <div class="skill-item">Desarrollo Full-Stack</div>
+            <div class="skill-item">Magíster en Gestión</div>
+            <div class="skill-item">Modelado de Datos (ORM)</div>
+            <div class="skill-item">HTML / CSS / JavaScript</div>
+            <div class="skill-item">Gestión Inmobiliaria</div>
+            <div class="skill-item">Liderazgo de Proyectos</div>
+            <div class="skill-item">Análisis Estratégico</div>
+        </div>
+    </section>
 
     <footer>
-        <p>Portafolio alojado en GitHub Pages. Desarrollado por Becareli. &copy; 2025.</p>
+        <div class="container">
+            <p>Conecta conmigo:</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/patriciobecar/" target="_blank" title="Perfil de LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/becareli" target="_blank" title="Perfil de GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC-your-channel-id" target="_blank" title="Canal de YouTube">
+                     <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <p style="margin-top: 10px;">&copy; 2025 Patricio Becar. Todos los derechos reservados.</p>
+        </div>
     </footer>
 
 </body>
 </html>
-```
-
-¿Quieres que el video también se muestre embebido directamente en la página como un iframe? Puedo ayudarte a insertarlo justo debajo del enlace.
