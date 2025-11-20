@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patricio Becar Elissegaray | Portafolio de Proyectos</title>
+    <title>Patricio Becar | Portafolio de Proyectos</title>
     <meta name="description" content="Portafolio de proyectos de Arquitectura, Gestión y Desarrollo Full-Stack de Patricio Becar.">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -129,6 +129,15 @@
             font-size: 1.5em;
             font-weight: 600;
         }
+        
+        .project-card img {
+            max-width: 100%;
+            height: 200px; /* Altura fija para la imagen */
+            object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+        }
 
         .project-card .tags {
             margin: 15px 0;
@@ -219,13 +228,17 @@
             section h2 {
                 font-size: 1.8em;
             }
+            
+            .project-card img {
+                height: 180px; /* Ajuste para móviles si es necesario */
+            }
         }
     </style>
 </head>
 <body>
 
     <header class="hero container">
-        <h1>Patricio Becar Elissegaray</h1>
+        <h1>Patricio Becar</h1>
         <p>Arquitecto | Magíster en Gestión | Desarrollador Full-Stack</p>
         <p>Fusionando el diseño, la gestión de proyectos y la tecnología para soluciones innovadoras.</p>
     </header>
@@ -237,6 +250,7 @@
         
             <div class="project-card">
                 <div>
+                    <img src="images/cev_saas.png" alt="Captura de pantalla de CEV SAAS">
                     <h3>CEV SAAS (Calificación Energética)</h3>
                     <p>
                         Prototipo Full-Stack robusto para la calificación energética de viviendas. Demuestra la capacidad para diseñar y construir sistemas complejos con modelos de datos, autenticación y operaciones CRUD.
@@ -258,6 +272,7 @@
 
             <div class="project-card">
                 <div>
+                    <img src="images/arquitectura.jpg" alt="Imagen representativa de proyecto de arquitectura">
                     <h3>Proyectos Arquitectónicos y de Tasación</h3>
                     <p>
                         Liderazgo y desarrollo de proyectos de diseño y construcción, además de consultoría en gestión de propiedades e informes de tasación. Experiencia en la mejora de la calidad de vida en espacios habitacionales y comerciales.
@@ -278,6 +293,7 @@
 
             <div class="project-card">
                 <div>
+                    <img src="images/web_dev.png" alt="Icono o captura de desarrollo web">
                     <h3>Desarrollos Web y Experimentos</h3>
                     <p>
                         Exploración y prototipado de soluciones en el ecosistema de desarrollo web. Incluye proyectos estáticos y pruebas de concepto para nuevas tecnologías y frameworks.
